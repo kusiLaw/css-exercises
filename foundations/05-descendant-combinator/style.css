@@ -1,0 +1,19 @@
+/* div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} works*/
+
+/* or */
+/* this combinator works 
+"div p", 
+.container .text, 
+div .text  */
+
+.container .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
